@@ -36,4 +36,4 @@ before_script:
 script:
     - date
     - ls -al
-    - make test
+    - make travis
