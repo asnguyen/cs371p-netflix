@@ -156,6 +156,8 @@ status:
 
 test: html Netflix.log GetFile RunNetflix.tmp TestNetflix.tmp check
 
+travis: html Netflix.log GetFile TestNetflix.tmp check
+
 versions:
 	which make
 	make --version
