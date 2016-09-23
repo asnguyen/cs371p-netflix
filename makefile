@@ -154,7 +154,7 @@ status:
 	git remote -v
 	git status
 
-test: html Netflix.log GetFile RunNetflix.tmp TestNetflix.tmp check
+test: html Netflix.log RunNetflix.tmp TestNetflix.tmp check
 
 travis: html Netflix.log GetFile TestNetflix.tmp check
 
